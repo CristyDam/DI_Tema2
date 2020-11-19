@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DI_ControlTableView2.jnlp">
+  <information>
+    <title>DI_ControlTableView2</title>
+    <vendor>crist</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DI_ControlTableView2.jar" size="8177" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DI_ControlTableView2" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="di_controltableview2.DI_ControlTableView2"  name="DI_ControlTableView2" />
+  <update check="always"/>
+</jnlp>
