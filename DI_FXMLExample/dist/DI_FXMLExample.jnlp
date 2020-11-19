@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DI_FXMLExample.jnlp">
+  <information>
+    <title>DI_FXMLExample</title>
+    <vendor>crist</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DI_FXMLExample.jar" size="2717" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DI_FXMLExample" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="di_fxmlexample.DI_FXMLExample"  name="DI_FXMLExample" />
+  <update check="always"/>
+</jnlp>
